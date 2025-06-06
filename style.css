@@ -1,0 +1,282 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff6803;
+    color: black;
+    line-height: 1.6;
+    direction: rtl;
+    text-align: right;
+}
+
+ .See {
+    
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+.rr{
+    color: #27ae60;
+    text-align: center;
+   font-size: 2em;
+}
+
+/* تنسيق ملفات امالي*/
+ 
+        /* --- تنسيقات الأزرار --- */
+       
+
+        
+
+        .button-container {
+            display: flex;
+            flex-wrap: wrap; /* لجعل الأزرار تلتف لأسفل في الشاشات الصغيرة */
+            gap: 20px; /* مسافة بين الأزرار */
+            justify-content: center;
+            width: 100%;
+            max-width: 1500px; /* عرض أقصى للحاويات */
+        }
+
+        .action-button {
+            display: flex; /* لجعل الأيقونة والنص في نفس الصف */
+            align-items: center; /* لمحاذاة عمودية للأيقونة والنص */
+            padding: 15px 25px;
+            background-color: #3498db; /* لون خلفية الزر */
+            color: white; /* لون النص والأيقونة */
+            text-decoration: none; /* إزالة خط تحت الرابط */
+            border-radius: 8px; /* حواف دائرية للزر */
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease; /* تأثيرات عند التحويم */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* ظل للزر */
+            min-width: 250px; /* لتحديد عرض أدنى للأزرار */
+            justify-content: center; /* لمحاذاة المحتوى في المنتصف */
+        }
+
+        .action-button:hover {
+            background-color: #2980b9; /* لون أغمق عند التحويم */
+            transform: translateY(-3px); /* رفع الزر قليلاً عند التحويم */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* ظل أكبر عند التحويم */
+        }
+
+        .action-button i {
+            margin-inline-end: 10px; /* مسافة بين الأيقونة والنص */
+            font-size: 1.3em; /* حجم أكبر للأيقونة */
+        }
+
+        /* ألوان مختلفة لأزرار محددة (اختياري) */
+        .graphic-design-btn { background-color: #e74c3c; } /* أحمر */
+        .graphic-design-btn:hover { background-color: #c0392b; }
+
+        .programming-btn { background-color: #27ae60; } /* أخضر */
+        .programming-btn:hover { bachkground-color: #2ecc71; } /* أخضر أفتح عند التحويم */
+
+        .web-dev-btn { background-color: #f39c12; } /* برتقالي */
+        .web-dev-btn:hover { background-color: #e67e22; }
+
+        .other-projects-btn { background-color: #8e44ad; } /* بنفسجي */
+        .other-projects-btn:hover { background-color: #9b59b6; }
+
+    
+
+p{
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.paragraf{
+    font-size: 30px;
+    color:#ff6803;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-image {
+    width: 150px;
+     width: 400px;
+    margin-bottom: 15px;
+   
+}
+
+header h1 {
+    margin-top: 0;
+    font-size: 2.5em;
+}
+
+.tagline {
+    font-size: 1.2em;
+    color: #ddd;
+}
+
+.services {
+    padding: 60px 0;
+    background-color:#ff6803;
+}
+
+.services h2 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    text-align: center;
+}
+
+.service-item {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-item i {
+    font-size: 2em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.service-item h3 {
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.social-links {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.social-links h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.social-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-list li a {
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-list li a:hover {
+    color: #ddd;
+}
+
+footer {
+    background-color: #ff6803;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
+
+/* تخصيصات إضافية يمكنك إضافتها */
+
+/* تغيير الألوان الرئيسية */
+/* :root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --text-color: #333;
+    --background-color: #f8f9fa;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--primary-color);
+}
+
+.services h2 {
+    color: var(--primary-color);
+}
+
+.service-item i {
+    color: var(--secondary-color);
+}
+
+.social-links {
+    background-color: var(--secondary-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+} */
+
+/* إضافة تأثيرات بسيطة عند التمرير */
+.service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.social-list li a:hover {
+    transform: scale(1.1);
+}
+
+/* تصميم responsive لتناسب الشاشات المختلفة */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .services-list {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-info {
+        text-align: center;
+    }
+
+    .profile-image {
+        width: 120px;
+        height: 120px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    .social-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
