@@ -16,30 +16,6 @@ body {
     font-size: 1.2em;
     color: #ddd;
 }
-.Se{
-     
-  
-    font-family: 'Arial', sans-serif; /* خط احترافي وواضح */
-    font-size: 1.15em; /* حجم خط مناسب للقراءة */
-    line-height: 1.6; /* تباعد الأسطر لراحة العين */
-    color: #ffffff; /* لون نص داكن لسهولة القراءة */
-    text-align: justify; /* محاذاة النص لكثافة بصرية متساوية */
-    max-width: 800px; /* تحديد أقصى عرض للفقرة لمنع طول السطر الزائد */
-    margin: 20px auto; /* توسيط الفقرة مع هامش علوي وسفلي */
-    padding: 30px; /* مسافة داخلية حول النص */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف لإضافة عمق */
-    border-radius: 8px; /* حواف مستديرة لمظهر عصري */
-    background-color: #000000; /* خلفية فاتحة للفقرة */
- } 
-
-/* يمكن إضافة المزيد من التنسيقات للكلمات المفتاحية داخل الفقرة */
- .Se strong {
-    color: #007bff; /* لون مميز للكلمات المهمة */
-    font-weight: bold;
-  }
-
-
-  
 
 .rr{
     color: #27ae60;
@@ -106,7 +82,7 @@ body {
     
 
 p{
-    color: #ffffff;
+    color: #2d2a2a;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -138,14 +114,14 @@ header {
 
 .profile-image {
     width: 150px;
-     width: 400px;
+     width: 200px;
     margin-bottom: 15px;
    
 }
 
 header h1 {
     margin-top: 0;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .tagline {
