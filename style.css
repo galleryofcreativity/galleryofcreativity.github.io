@@ -37,6 +37,7 @@ body {
             justify-content: center;
             width: 100%;
             max-width: 1500px; /* عرض أقصى للحاويات */
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
 
         .action-button {
