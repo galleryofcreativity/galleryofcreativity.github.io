@@ -13,7 +13,7 @@ body {
     
     text-align: center;
     margin-bottom: 30px;
-    font-size: 2em;
+    font-size: 1.2em;
     color: #ddd;
 }
 .Se{
@@ -29,7 +29,7 @@ body {
     padding: 20px; /* مسافة داخلية حول النص */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف لإضافة عمق */
     border-radius: 8px; /* حواف مستديرة لمظهر عصري */
-    background-color: #ff6803; /* خلفية فاتحة للفقرة */
+    background-color: #716862; /* خلفية فاتحة للفقرة */
  } 
 
 /* يمكن إضافة المزيد من التنسيقات للكلمات المفتاحية داخل الفقرة */
