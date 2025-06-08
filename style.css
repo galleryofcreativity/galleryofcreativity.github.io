@@ -8,6 +8,7 @@ body {
     direction: rtl;
     text-align: right;
 }
+
 .Se{
      
   
@@ -24,11 +25,7 @@ body {
     background-color: #ff6803; /* خلفية فاتحة للفقرة */
  } 
 
-/* يمكن إضافة المزيد من التنسيقات للكلمات المفتاحية داخل الفقرة */
- .Se strong {
-    color: #007bff; /* لون مميز للكلمات المهمة */
-    font-weight: bold;
-  }
+
 
  .See {
     
