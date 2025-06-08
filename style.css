@@ -26,10 +26,10 @@ body {
     text-align: justify; /* محاذاة النص لكثافة بصرية متساوية */
     max-width: 800px; /* تحديد أقصى عرض للفقرة لمنع طول السطر الزائد */
     margin: 20px auto; /* توسيط الفقرة مع هامش علوي وسفلي */
-    padding: 20px; /* مسافة داخلية حول النص */
+    padding: 30px; /* مسافة داخلية حول النص */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف لإضافة عمق */
     border-radius: 8px; /* حواف مستديرة لمظهر عصري */
-    background-color: #716862; /* خلفية فاتحة للفقرة */
+    background-color: #000000; /* خلفية فاتحة للفقرة */
  } 
 
 /* يمكن إضافة المزيد من التنسيقات للكلمات المفتاحية داخل الفقرة */
@@ -106,7 +106,7 @@ body {
     
 
 p{
-    color: #000000;
+    color: #ffffff;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -159,7 +159,7 @@ header h1 {
 }
 
 .services h2 {
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     margin-bottom: 30px;
     font-size: 2em;
